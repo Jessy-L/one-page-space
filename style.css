@@ -270,3 +270,24 @@ main{
     background-color: var(--color-btn-hover);
     color: white;
 }
+
+/* mini texte */
+
+.content-mini-texte{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 500px;
+    padding-bottom: 90px;
+    margin: 90px;
+    border-bottom: 1px solid white;
+}
+
+.mini-texte{
+    color: var(--color-police);
+    font-size: 20px;
+    width: 200px;
+    border-top: 2px solid white;
+    padding: 10px;
+
+}
